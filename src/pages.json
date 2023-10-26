@@ -1,0 +1,105 @@
+{
+  "pages": [
+    {
+      "name": "index",
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "name": "profile",
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "个人",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    // {
+    //   "root": "pages/test",
+    //   "pages": [
+    //     {
+    //       "name": "test",
+    //       "path": "test",
+    //       "style": {
+    //         "navigationBarTitleText": "测试",
+    //         "navigationStyle": "custom"
+    //       }
+    //     }
+    //   ]
+    // },
+    {
+      "root": "pages/subpath",
+      "pages": [
+        {
+          "name": "hospital",
+          "path": "hospital",
+          "style": {
+            "navigationBarTitleText": "医院信息",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "name": "login",
+          "path": "login",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "name": "register",
+          "path": "register",
+          "style": {
+            "navigationBarTitleText": "手机注册",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "name": "member",
+          "path": "member",
+          "style": {
+            "navigationBarTitleText": "我的一家",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "name": "add",
+          "path": "add",
+          "style": {
+            "navigationBarTitleText": "添加成员",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#1AA86C",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#282828",
+		"selectedColor": "#ff3366",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+    "list": [
+      {
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/1-001.png",
+				"selectedIconPath": "static/images/1-002.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/images/4-001.png",
+				"selectedIconPath": "static/images/4-002.png",
+				"text": "我的"
+			}]
+  }
+}

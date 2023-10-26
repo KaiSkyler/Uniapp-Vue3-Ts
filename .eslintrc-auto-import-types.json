@@ -1,0 +1,16 @@
+{
+  "globals": {
+    "Http": true,
+    "GetTest": true,
+    "PostTest": true,
+    "GetHospitalList": true,
+    "PostHospitalList": true,
+    "GetHospitalInfo": true,
+    "PostHospitalInfo": true,
+    "GetMemberList": true,
+    "Types": true,
+    "Hospital": true,
+    "Member": true,
+    "User": true
+  }
+}
